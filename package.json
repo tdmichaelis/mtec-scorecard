@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "mtec-scorecard",
   "version": "0.0.0",
   "description": "Basic app to keep your golf score",

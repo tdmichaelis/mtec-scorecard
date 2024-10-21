@@ -2,8 +2,34 @@
 <html>
   <head>
     <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script type="module" src="index.js"></script>
   </head>
   <body>
-    <header>Golf Scorecard</header>
+    <header class="px-4 py-2">Golf Scorecard</header>
+    <main class="p-4">
+      <section
+        id="options-container"
+        class="container flex items-center justify-between flex-wrap py-2"
+      >
+        <div class="flex flex-col text-xs">
+          <label for="course">Select Tee Box</label>
+          <select name="course" id="tee-select" class="border p-2"></select>
+        </div>
+        <div class="flex flex-col text-xs">
+          <label for="course">Select Course</label>
+          <select name="course" id="course-select" class="border p-2"></select>
+        </div>
+      </section>
+      <section class="container">
+        <div>
+          <table id="front-nine" class="w-full"></table>
+          <table id="back-nine" class="w-full"></table>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
