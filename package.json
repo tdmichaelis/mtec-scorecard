@@ -1,0 +1,19 @@
+{
+  "name": "mtec-scorecard",
+  "version": "0.0.0",
+  "description": "Basic app to keep your golf score",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdmichaelis/mtec-scorecard.git"
+  },
+  "author": "Trevor Michaelis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tdmichaelis/mtec-scorecard/issues"
+  },
+  "homepage": "https://github.com/tdmichaelis/mtec-scorecard#readme"
+}
