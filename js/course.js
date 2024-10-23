@@ -57,6 +57,10 @@ async function handleCourseSelect(event) {
     selectedCourse = course;
     buildTeeBoxSelect();
     buildScorecard();
+    const courseImage = document.getElementById("course-thumbnail");
+    courseImage.src = course.thumbnail;
+    courseImage.alt = course.name;
+    courseImage.classList.remove("hidden");
   } catch (error) {
     console.error("Error fetching course details: ", error);
   }
