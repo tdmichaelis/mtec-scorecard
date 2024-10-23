@@ -53,7 +53,6 @@ async function handleCourseSelect(event) {
   try {
     localStorage.setItem("selectedCourseId", parseInt(event.target.value));
     const course = await getCourseById(event.target.value);
-    console.log("SELECTED COURSE: ", course);
     selectedCourse = course;
     buildTeeBoxSelect();
     buildScorecard();

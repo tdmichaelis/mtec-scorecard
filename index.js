@@ -10,7 +10,6 @@ const addPlayerButton = document.getElementById("add-player");
 addPlayerButton.addEventListener("click", () => {
   const name = prompt("Enter player name");
   if (name) {
-    console.log("Adding player: ", name);
     addPlayer(name);
   }
 });

@@ -68,7 +68,6 @@ export function buildTable(holes, selector) {
 
         user.scores[courseId][hole.hole][selectedTeeBox] = value;
 
-        console.log("Updated user: ", user);
         localStorage.setItem("users", JSON.stringify(users));
         buildScorecard();
       });
